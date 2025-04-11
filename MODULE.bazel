@@ -90,8 +90,8 @@ new_git_repository = use_repo_rule("@bazel_tools//tools/build_defs/repo:git.bzl"
 new_git_repository(
     name = "tinyusb",
     build_file = "//src/rp2_common/tinyusb:tinyusb.BUILD",
-    commit = "86ad6e56c1700e85f1c5678607a762cfe3aa2f47",  # keep-in-sync-with-submodule: lib/tinyusb
-    remote = "https://github.com/hathach/tinyusb.git",
+    commit = "7dfe90d05ec18725f379e0d18a56331c3778d050",  # keep-in-sync-with-submodule: lib/tinyusb
+    remote = "https://github.com/mbrase/tinyusb.git",
 )
 
 # TODO: Provide btstack as a proper Bazel module.
